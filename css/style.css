@@ -1,0 +1,203 @@
+*{
+	font-family:'source_sans_proregular','Helvetica Neue',Arial,Helvetica,Geneva,sans-serif;
+	margin: 0 auto;
+	list-style: none;
+	text-decoration: none;
+	
+}
+a{
+	color: #666;
+}
+.homepage{
+	margin: 0 auto;
+	position: relative;
+	width: 100%;
+}
+.top{
+	width: 92%;
+	height: 360px;
+	border: 1px solid #999;
+	background: #48649c ;
+	position: relative;
+	
+}
+.top_bac{
+	width: 650px;
+	height: 358px;
+	margin: auto;
+	background: url(../img/deer2.jpg) center  no-repeat;
+	position: center;
+	
+}
+.top_bac:hover{
+	opacity:0.7;filter:alpha(opacity=70)
+}
+.head{
+	width: 100%;
+	height: 70px;
+	border: 1px solid #999;
+	line-height:70px ;
+	/*position:fixed;left:0px;right:0px;margin-left:auto;margin-right:auto;*/
+	position: absolute;
+	background: whitesmoke;
+	z-index: 99;
+}
+.head ul{
+	width: 650px;
+	position: center;
+}
+.head li{
+	float: left;
+}
+.head li a{
+	padding: 0 25px 0 25px;
+	 -webkit-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+    border-right: 1px solid #DDDDDD;
+}
+#bctop{
+	width: 40px;
+				height: 40px;
+				position: fixed;
+				left: 95%;
+				top:90%;
+				opacity: 0.3;
+}
+#bctop:hover {
+				 left -40px;
+				 opacity: 1;
+			}
+.context{
+	width: 92%;
+	height: auto;
+/*	border: 1px solid #999;*/
+	
+}
+.context_album{
+	width: 95%;
+	height: auto;
+	margin-bottom: 10px;
+/*	border: 1px solid #999;*/
+	margin-top: 20px;
+}
+.footer{
+	width: 100%;
+	height: 70px;
+	background: #666666;
+}
+#footsign{
+	display: block;
+	position: center;
+	text-align: center;
+	line-height: 70px;
+	font-family: "宋体";
+}
+.context_album_contact{
+	height: 300px;
+}
+.context_album_contact span{
+	width: 500px;
+	display: block;
+	margin: auto;
+
+	margin-top: 50px;
+}
+.context_album_contact p{
+	text-align: center;
+	line-height:30px;
+	font-family:"Merriweather", sans-serif; ;
+}
+
+/*haiku便签*/
+
+.haiku_ul{  
+      overflow:hidden;  
+      padding:3em;  
+    }  
+ .haiku_ul li a{  
+      text-decoration:none;  
+      color:#000;  
+      background:#E9E2DC;  
+      display:block;  
+      height:10em;  
+      width:12em;  
+      padding:1em;  
+    }  
+.haiku_ul li{  
+      margin:1em;  
+      float:left;  
+    }
+.haiku_ul li h2{
+            font-size: 140%;
+            font-weight: bold;
+            padding-bottom: 10px;
+        }
+.haiku_ul li p
+        {
+            font-family: "Reenie Beanie" ,arial,sans-serif,微软雅黑;
+            font-size: 110%;
+        }
+        
+.haiku_ul li a
+        {
+            text-decoration: none;
+            color: #000;
+            background: #F1E9CD;
+            display: block;
+            height: 14em;
+            width: 14em;
+            padding: 1em; /* Firefox */
+            -moz-box-shadow: 5px 5px 7px rgba(33,33,33,1); /* Safari+Chrome */
+            -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7); /* Opera */
+            box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+              -moz-transition:-moz-transform .15s linear;  
+  -o-transition:-o-transform .15s linear;  
+  -webkit-transition:-webkit-transform .15s linear; 
+        }
+        
+.haiku_ul li:nth-child(even) a{  
+      -o-transform:rotate(4deg);  
+      -webkit-transform:rotate(4deg);  
+      -moz-transform:rotate(4deg);  
+      position:relative;  
+      top:5px;  
+    }  
+.haiku_ul li:nth-child(3n) a{  
+      -o-transform:rotate(-3deg);  
+      -webkit-transform:rotate(-3deg);  
+      -moz-transform:rotate(-3deg);  
+      position:relative;  
+      top:-5px;  
+    }  
+.haiku_ul li:nth-child(5n) a{  
+      -o-transform:rotate(5deg);  
+      -webkit-transform:rotate(5deg);  
+      -moz-transform:rotate(5deg);  
+      position:relative;  
+      top:-10px;  
+    }
+.haiku_ul li a:hover,.haiku_ul li a:focus{  
+  -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);  
+  -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);  
+  box-shadow:10px 10px 7px rgba(0,0,0,.7);  
+  -webkit-transform: scale(1.25);  
+  -moz-transform: scale(1.25);  
+  -o-transform: scale(1.25);  
+  position:relative;  
+  z-index:5;  
+  }
+  
+  
+.haiku_ul li:nth-child(even) a{  
+     
+      background:#EDF4ED;  
+    }  
+.haiku_ul li:nth-child(3n) a{  
+   
+      background:#EEEBBE;  
+    }
+/*haiku便签*/
+.column_one{
+	width: 100%;
+}
